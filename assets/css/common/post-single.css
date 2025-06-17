@@ -41,29 +41,60 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin: 24px 0 16px;
+    padding: 5px 0 5px 10px;
+    margin: 16px 0 12px;
 }
 
 .post-content h1 {
-    margin: 40px auto 32px;
-    font-size: 40px;
+    background: #2B6695;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑", "宋体", "黑体", Arial, serif;
+    padding: 8px 0 5px 5px;
+    margin: 32px auto 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #222222;
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
-    font-size: 32px;
+    background: #2B6600;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑", "宋体", "黑体", Arial, serif;
+    padding: 5px 0 5px 10px;
+
+    margin: 24px auto 16px;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #222222;
 }
 
 .post-content h3 {
-    font-size: 24px;
+    background: #5B9600;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑", "宋体", "黑体", Arial, serif;
+    padding: 5px 0 5px 10px;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #222222;
 }
 
 .post-content h4 {
-    font-size: 16px;
+    border-bottom: 1px solid #5B9600;
+    font-family: "微软雅黑", "宋体", "黑体", Arial, serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #222222;
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .post-content h6 {
@@ -213,7 +244,15 @@
 .post-content blockquote {
     margin: 20px 0;
     padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    /*border-inline-start: 3px solid var(--primary);*/
+    background-color: #6e5c13;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.post-content blockquote code {
+    font-style: normal;
+    color: rgb(213, 213, 214);
 }
 
 .post-content hr {
