@@ -64,3 +64,66 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+/* table 样式，暗黑模式下 */
+body.dark table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.7em;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+body.dark th, body.dark td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+body.dark th {
+    background-color: #3e3e3e;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+body.dark tr:nth-child(even) {
+    background-color: #323232;
+}
+
+body.dark tr:hover {
+    background-color: #505050;
+}
+
+/* table 样式，非暗黑模式下 */
+body:not(.dark) table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.7em;
+    background-color: #ffffff; /* 默认白色背景 */
+    color: #000000; /* 非暗模式下字体颜色为黑色 */
+}
+
+body:not(.dark) th, body:not(.dark) td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+body:not(.dark) th {
+    background-color: #f5f5f5; /* 非暗模式下头部背景色 */
+    font-weight: bold;
+    color: #333333; /* 非暗模式下头部字体颜色 */
+}
+
+body:not(.dark) tr:nth-child(even) {
+    background-color: #f9f9f9; /* 非暗模式下交替行背景色 */
+}
+
+body:not(.dark) tr:hover {
+    background-color: #e8e8e8; /* 非暗模式下鼠标悬停行背景色 */
+}
+/* table 样式 end */
